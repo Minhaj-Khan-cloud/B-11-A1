@@ -166,3 +166,25 @@
     height: 41px;
     
 }
+
+.quote{
+    background-color: #FFFFFF;
+    padding: 48px 24px;
+    border: none;
+    border-radius: 16px;
+    margin-top: 32px;
+    
+}
+
+.img-quote{
+    width: 64px;
+    height: 64px;
+
+}
+.back{
+    background-image: url("./assets/quote-bg.png");
+    background-repeat: no-repeat;
+    background-position: left top;
+   background-size: 64px 64px;
+     padding-top: 25px;
+}
