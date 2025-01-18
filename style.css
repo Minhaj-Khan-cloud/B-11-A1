@@ -208,14 +208,14 @@
     
     }
 
-    .news-main-div{
-        display: flex;
-        justify-content: space-around;
-        background-color: #FFFFFF;
+.news-main-div{
+      display: flex;
+  justify-content: space-around;
+    background-color: #FFFFFF;
         border-radius: 24px;
         gap:32px;
         padding: 48px;
-    }
+ }
 
 .satelite-image{
     border-radius: 24px;
@@ -245,4 +245,109 @@
     height: 48px;
     padding: 13px 26px;
     border-radius: 8px;
+}
+.news-main-div-new{
+    display: flex;
+    justify-content: space-around;
+    background-color: #FFFFFF;
+    border-radius: 24px;
+    gap:32px;
+    padding: 48px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+/*Donation Box*/
+.donation{
+    margin-left: 412px;
+    margin-right: 412px;
+    margin-top: 80px;
+    width:1280px;
+    height: 464px;
+
+}
+
+.heading-donate{
+    font-family: Fira Sans;
+    font-weight: Bold;
+     text-align: center;
+     margin-bottom: 24px;
+}
+
+.paragraph-donate{
+    font-family: Fira Sans;
+    font-weight: 16px;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.box-donate{
+}
+.parent-box-donate{
+    display: flex;
+    gap:24px;
+    padding-left: 104.5px;
+    padding-right: 104.5px;
+   width: 1071px;
+   height: 124px;    
+    margin-bottom: 32px;
+
+}
+.btn-tk{
+    font-family: Fira Sans;
+    font-weight: bold;
+    font-size: 40px;
+    width: 243px;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    padding: 40px;
+    border: none;
+    text-align: auto;
+    color:black;
+}
+.btn-tk4{
+    width: 264px;
+    font-family: Fira Sans;
+    font-weight: bold;
+    font-size: 40px;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    padding: 40px;
+    border: none;
+    text-align: auto;
+    color:black;
+     
+}
+.btn-tk:hover{
+    background-color:#C6E4D6;
+
+}
+
+.taka{
+    padding: 20px 40px;
+    background-color: #FFFFFF;
+    padding: 124px;
+    padding-right: 124px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    width: 1032px;
+    margin-bottom: 32px;
+    border: none;
+    border-radius: 16px;
+    text-align: center;
+}
+
+.btn-donate{
+    background-color: #006A50;
+    color: #F1F1F3;
+    padding: 32px;
+    border: none;
+    border-radius: 8px;
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: SemiBold;
+    margin-left: 564.5px;
+    margin-right: 564.5px;
+
+    width: 151px;
 }
