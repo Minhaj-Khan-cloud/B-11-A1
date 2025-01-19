@@ -13,36 +13,61 @@
     background-color: white;
     border-radius: 8px;
     color: #006A50;
+    border: solid #006A50;
 }
 
 /* Banner design */
 .Banner{
+    
     background-color: #C6E4D6;
     margin: 20px 160px 80px 160px;
+    border-radius: 24px;
 
 }
 .header{
+    font-family: Fira Sans;
     font-weight: 24px;
-    color: #0E0E0E;
+    color: #767373;
+    margin-bottom: 16px;
 }
 .secondarydiv{
     padding: 117px 598px 117px 59.9px;
 }
+
+.secondarydiv2{
+    
+    
+    justify-content: end;
+}
+
+.image{
+    /* width: 474px;
+    height: 400px; */
+    padding-top: 80px;
+    padding-bottom: 80px;
+    
+}
 .maindiv{
     display: flex;
+    flex-direction: row;
+    padding: 80px 100px 80px 100px;
     gap:64px;
-    padding: 80px 100px;
+ 
 }
 
 .btn2{
     background-color: #006A50;
     color: white;
+    font-family: Fira Sans;
     padding: 17px 34px;
+    border: none;
+    border-radius: 8px;
 }
 .paragraph{
 
     font-weight: bold;
     font-family:Fira Sans;
+    font-size: 56px;
 }
 /* pillar of Bangladesh */
 .pillar{
@@ -305,7 +330,7 @@
     text-align: auto;
     color:black;
 }
-.btn-tk4{
+.btn-tk1000{
     width: 264px;
     font-family: Fira Sans;
     font-weight: bold;
@@ -321,6 +346,10 @@
 .btn-tk:hover{
     background-color:#C6E4D6;
 
+}
+
+.btn-tk1000:hover{
+    background-color: #C6E4D6;
 }
 
 .taka{
@@ -340,7 +369,7 @@
 .btn-donate{
     background-color: #006A50;
     color: #F1F1F3;
-    padding: 32px;
+    padding: 17px 34px 17px 34px;
     border: none;
     border-radius: 8px;
     font-family: Fira Sans;
@@ -350,4 +379,107 @@
     margin-right: 564.5px;
 
     width: 151px;
+}
+/* challenge part */
+
+.challenge{
+    background-color: #C6E4D6;
+    margin: 80px 412px 80px 412px;
+    border-radius: 24px;
+    border: none;
+    padding: 80px 100px;
+    width: 1280px;
+    
+}
+
+.challenge-header{
+    font-family: Fira Sans;
+    font-weight: bold;
+    font-size: 40px;
+    margin-left: 329px;
+    margin-right: 329px;
+    text-align: center;
+}
+
+.challenge-para{
+    font-family: Fira Sans;
+    font-size: 16px ;
+    font-weight: normal;
+    margin-top: 16px;
+    margin-left: 329px;
+    margin-right: 329px;
+    text-align: center;
+     color:rgba(14, 14, 14, 0.7);
+}
+
+.challenge-input-div{
+    margin-bottom:24px ;
+    margin-left: 265px;
+    margin-right: 265px;
+    display: flex;
+    gap 0px;
+    flex-direction: row;
+}
+
+.challenge-input{
+    border: none;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    padding: 18px 40px;
+    width: 600px;
+    
+}
+.challenge-btn{
+    border: none;
+    border-radius: 8px;
+    background-color: #006A50;
+    font-family: Fira Sans;
+    padding: 17px 34px;
+    color: white;
+    width: 150px;
+    height: 56px;
+}
+
+.challenge-footer{
+    font-family: Fira Sans;
+    color: rgba(14, 14, 14, 0.7);
+    font-size:16px;
+    margin-left: 329px;
+    margin-right: 329px;
+    margin-bottom: 80px;
+    margin-top: 24px;
+    text-align: center;
+}
+/* footer design */
+.main-footer{
+    background-color: #FFFFFF;
+    margin-top: 80px;
+}
+
+
+.hf{
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: bold;
+    margin-left: 941px;
+    margin-right: 941px;
+    padding-top: 50px;
+    padding-bottom: 32px;
+    gap:auto;
+
+}
+#newline{
+    margin-left: 491px;
+    margin-right: 491px;
+    color: #767373;
+}
+
+#newline:hover{
+    color: #5490F5;
+}
+
+.footer-img{
+    display: flex;
+    margin-left: 991.73px;
+    margin-right: 991.73px;
 }
